@@ -2,12 +2,15 @@
 # **[Project Name]**
 
 
-**Grab A Pi Hacknight 2025**
+**DESIGN.EXE designathon 2025**
 
 > A short description of your project. Explain what your project does, what problem it solves, and why it's cool.
 
 
-## **Link to video**
+## **Link to figma file**
+Add the link here
+
+## **Hostel url**
 Add the link here
 
 ## **Installation**
