@@ -10,17 +10,47 @@ We’re solving the problem of charging in remote areas and wasteful energy usag
 
 
 ## **Link to figma file**
-https://www.figma.com/design/nNsbc7D6G4PJn4oCnpjO2c/Untitled?node-id=0-1&t=cH8ZNkhzYPUDT4GV-1
+[https://www.figma.com/design/nNsbc7D6G4PJn4oCnpjO2c/Untitled?node-id=0-1&t=cH8ZNkhzYPUDT4GV-1]
 
 ## **Hosted url**
-Add the link here
+[https://suncharge-ten.vercel.app/]
 
 ## **Installation**
-How on earth can we set up your project up and running?
+Step 1: Clone or Download the Project
+git clone https://github.com/krishnendu-04/design-exe.git
+cd design-exe
+
+Step 2: Open with Live Server in VS Code:
+
+Right-click index.html → "Open with Live Server"
+
+Step 3: Deploy It Online (Optional)
 
 ## **Steps to run**  
-Care to explain?
+Here’s how to get it up and running:
+
+Clone the repo or download the ZIP
+
+Open the folder in VS Code or your preferred editor
+
+Launch index.html using Live Server or double-click
+
+Boom — your solar-powered site is live locally!
+
+Optionally deploy for the world to see 🌍
 
 ## **Acknowledgements**
-Give credit to any resources, tutorials, libraries helped you build your project.
+Thanks to the following resources that helped bring SunCharge to life:
+
+Figma for design prototyping
+
+Vercel for seamless deployment
+
+Live Server extension in VS Code
+
+Open-source HTML/CSS inspiration from various UI kits
+
+Icon libraries and image generation tools
+
+**Made with ☀️ and 💚 by Team Zenith**
 
