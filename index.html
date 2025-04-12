@@ -1,105 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustainable Futures</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <div class="logo">Sustainable Futures</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About Us</a>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="assets/logo.jpeg" alt="Sustainable Futures Logo" class="logo">
+                    <h1>Sustainable<br>Futures</h1>
+                <div class="company-name">
+                    <div>Sustainable</div>
+                    <div>Futures</div>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link">Products</a>
+                <a href="#" class="nav-link">Solutions</a>
+                <a href="#" class="nav-link">Community</a>
+                <a href="#" class="nav-link">Resources</a>
+                <a href="#" class="nav-link">Pricing</a>
+                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">Link</a>
+            </div>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>Charging that’s clean, green, and always ready.</h1>
-        <p>SunCharge, our solar-powered power bank, uses the power of the sun to keep your devices going—wherever life takes you.</p>
-        <button>Shop Now</button>
+            <div class="main-content">
+                <div class="lights-container">
+                    <div class="light">
+                        <div class="light-arm"></div>
+                        <div class="light-arm" style="margin-top: 10px;"></div>
+                        <div class="light-pole light-small"></div>
+                    </div>
+                    <div class="light">
+                        <div class="light-arm"></div>
+                        <div class="light-arm" style="margin-top: 10px;"></div>
+                        <div class="light-pole"></div>
+                    </div>
+                    <div class="light">
+                        <div class="light-arm"></div>
+                        <div class="light-arm" style="margin-top: 10px;"></div>
+                        <div class="light-pole light-large"></div>
+                    </div>
+                </div>
+                
+                <div class="tagline">
+                    <h1>Charging<br>that's clean,<br>green, and<br>always<br>ready.</h1>
+                    <a href="#" class="shop-button">SHOP NOW</a>
+                </div>
+            </div>
+        
     </section>
 
-    <section class="products">
-        <div class="product large">
-            <img src="product1.jpg" alt="The Abstract Collections">
-            <h3>The Abstract Collections →</h3>
+    <section class="product-showcase">
+        <div class="product-row">
+            <div class="product-card large">
+                <div class="product-tag">New</div>
+                <img src="assets/wooden-charger.jpg" alt="Wooden Solar Charger">
+                <div class="product-info">
+                    <h3>🔆 THE ABSTRACT COLLECTIONS →</h3>
+                    <h4>Smart. Sustainable. Stylish.<br><br></h4>
+                    <p>Discover our curated range of solar-powered power banks designed for every lifestyle.The Abstract Collections combine eco-friendly materials with sleek design and reliable solar tech — perfect for conscious living on the go.</p><br><br>
+                    <ul><p>
+                        <item>Collection Highlights✨<br><br></p>
+                            <ul><p>
+                                <item>Terra – Earth-inspired textures with natural casing finishes<br><br></item>
+                                <item>Lumen – Lightweight, travel-friendly, and sun-efficient<br><br></item>
+                                <item>Nova – High-capacity, fast-charging for power users on the go<br><br></item>
+                                <item>Aurora Edition – Limited color palette inspired by the sky and sea</item></item></p>
+                            </ul>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="product-column">
+                <div class="product-card">
+                    <div class="product-tag">Popular</div>
+                    <img src="assets/suncharge-device.jpeg" alt="SunCharge Power Bank">
+                    <div class="product-info">
+                        <h3>SUNCHARGE - 10,000 MAH</h3>
+                        <p>₹2,499</p>
+                    </div>
+                </div>
+
+                
+                
+                <div class="product-card">
+                    <div class="product-tag">Newest</div>
+                    <img src="assets/solar-cable.jpeg" alt="Solar Cable">
+                    <div class="product-info">
+                        <h3>SOLARTECH CABLE SET (TYPE-C/ LIGHTNING/MICRO)</h3>
+                        <p>₹499</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-column">
+                <div class="product-card">
+                    <div class="product-tag">Popular</div>
+                    <img src="assets/suncharge-pro.jpeg" alt="SunCharge Pro Power Bank">
+                    <div class="product-info">
+                        <h3>SUNCHARGE PRO - 20,000 MAH (FAST CHARGE)</h3>
+                        <p>₹3,799</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-tag">Newest</div>
+                    <img src="assets/repair-kit.jpg" alt="Solar Repair Kit">
+                    <div class="product-info">
+                        <h3>SOLAR REPAIR KIT (REUSABLE STICKERS + CLIPS)</h3>
+                        <p>₹999</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product">
-            <img src="product2.jpg" alt="SunCharge – 10,000 mAh">
-            <h4>SunCharge – 10,000 mAh – ₹2,499</h4>
-        </div>
-        <div class="product">
-            <img src="product3.jpg" alt="SunCharge Pro – 20,000 mAh">
-            <h4>SunCharge Pro – 20,000 mAh (Fast Charge) – ₹3,799</h4>
-        </div>
-        <div class="product">
-            <img src="product4.jpg" alt="SolarTech Cable Set">
-            <h4>SolarTech Cable Set (Type-C/Lightning/Micro) – ₹499</h4>
-        </div>
-        <div class="product">
-            <img src="product5.jpg" alt="Solar Repair Kit">
-            <h4>Solar Repair Kit (Reusable Stickers + Cups) – ₹299</h4>
-        </div>
+        <div class="section-id"></div>
     </section>
 
-    <section class="features">
+     <!-- Features Section -->
+     <section class="features">
         <div class="feature">
-            <h5>☀</h5>
-            <h4>Solar-Powered Charging</h4>
-            <p>Charges anywhere with direct sunlight—no grid needed.</p>
+            <br>
+            <h3>☀️</h3>
+            <h4>Solar Powered Charging</h4>
+            <p>Charges anywhere with direct sunlight—in-grid bound.</p>
         </div>
+        
         <div class="feature">
-            <h5>🌂</h5>
-            <h4>Weather-Resistant Build</h4>
+            <h3>☔️</h3>
+            <h4>Weather Resistant Build</h4>
             <p>Built tough for all conditions—rain, dust, or sun.</p>
         </div>
+        
         <div class="feature">
-            <h5>⚡</h5>
+            <h3>🔋</h3>
             <h4>Smart Dual Charging</h4>
             <p>Simultaneous solar and USB-C charging supported.</p>
         </div>
+        <div class="section-id"></div>
     </section>
 
-    <section class="mission">
-        <div class="text">
-            <h2>We believe in energy that’s clean and conscious.</h2>
-            <p>At Sustainable Futures, we aim to eliminate dependency on non-renewable energy. By combining innovation with purpose, we bring solar solutions like SunCharge that empower people and protect the planet.</p>
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <h2>WE BELIEVE IN ENERGY THAT'S CLEAN AND CONSCIOUS.</h2>
+            <p>At Sustainable Futures, we believe that the future is green, clean, and powered by innovation. We are a passionate team of creators, engineers, and changemakers committed to building a better tomorrow through eco-friendly technology.
+
+                Our journey began with a simple mission — to create sustainable alternatives to everyday tech without compromising on style or performance. From our thoughtfully designed solar-powered power banks to our planet-first packaging, every product reflects our core values of sustainability, innovation, and impact.
+                
+                We envision a world where clean energy is not a luxury but a lifestyle.
+                
+                </p>
         </div>
-        <div class="image">
-            <img src="mission.jpg" alt="Person holding solar product">
+        <div class="about-image">
+            <img src="assets/woman-with-charger.jpeg" alt="Woman holding solar charger">
         </div>
+        <div class="section-id"></div>
     </section>
 
+    <!-- Materials Section -->
     <section class="materials">
-        <h3>Our Materials</h3>
-        <p>SunCharge is housed in a durable, impact-resistant casing made from 70% recycled plastic. Every unit is designed to last, reducing e-waste and promoting responsible consumption.</p>
+        <h2>Our Materials</h2>
+        <p>SunCharge is housed in a durable impact-resistant casing made from 70% recycled plastic. Every unit is designed to last, reducing e-waste and promoting responsible consumption</p>
+        <div class="section-id"></div>
     </section>
 
-    <section class="reviews">
-        <div class="review">
-            <p>⭐☆☆☆☆</p>
-            <h4>Review title</h4>
-            <p>Review body</p>
-            <p>Reviewer name – Date</p>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonial-card">
+            <div class="rating">★★★★★</div>
+            <h3>Awesome❤️</h3>
+            <p>My travel companion & lifesaver.</p>
+            <div class="testimonial-author">
+                <img src="assets/sarah.jpeg" alt="Sarah">
+                <span>Sarah</span>
+            </div>
         </div>
-        <div class="review">
-            <p>⭐☆☆☆☆</p>
-            <h4>Review title</h4>
-            <p>Review body</p>
-            <p>Reviewer name – Date</p>
+        
+        <div class="testimonial-card">
+            <div class="rating">★★★★★</div>
+            <h3>Life Saver</h3>
+            <p>It is a huge lifesaver during power outages.</p>
+            <div class="testimonial-author">
+                <img src="assets/heath.jpg" alt="Heath">
+                <span>Heath M</span>
+            </div>
         </div>
-        <div class="review">
-            <p>⭐☆☆☆☆</p>
-            <h4>Review title</h4>
-            <p>Review body</p>
-            <p>Reviewer name – Date</p>
+        
+        <div class="testimonial-card">
+            <div class="rating">★★★★★</div>
+            <h3>Highly Reliable</h3>
+            <p>Reliable for outdoor adventures.</p>
+            <div class="testimonial-author">
+                <img src="assets/random.jpg" alt="Random">
+                <span>Random Hiker</span>
+            </div>
         </div>
+        <div class="section-id"></div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>CONNECT WITH US ON</p>
+            <div class="social-icons">
+                <a href="#"><img src="assets/x.jpg" alt="Twitter"></a>
+                <a href="#"><img src="assets/insta.jpg" alt="Instagram"></a>
+                <a href="#"><img src="assets/youtube.jpg" alt="YouTube"></a>
+                <a href="#"><img src="assets/linkedin.jpg" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
