@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #054734;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #333;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    font-family: 'Courier New', cursive;
+}
+
+.hero button {
+    background-color: #054734;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.product h4,
+.product h3 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f2ed;
+    padding: 2rem;
+    text-align: center;
+}
+
+.feature h5 {
+    font-size: 2rem;
+}
+
+.mission {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #054734;
+    color: white;
+}
+
+.mission .text {
+    flex: 1;
+    padding: 1rem;
+}
+
+.mission .image {
+    flex: 1;
+    padding: 1rem;
+}
+
+.mission img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.materials {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f5f2ed;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #054734;
+    color: white;
+}
+
+.review {
+    background-color: white;
+    color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.review p {
+    margin: 0.5rem 0;
+}
