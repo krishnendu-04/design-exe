@@ -10,7 +10,7 @@
 ## **Link to figma file**
 Add the link here
 
-## **Hostel url**
+## **Hosted url**
 Add the link here
 
 ## **Installation**
